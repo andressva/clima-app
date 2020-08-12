@@ -33,7 +33,7 @@ class App extends React.Component{
       let res = await CALL_API.json();
       
       if(res.cod != 200){
-        alert("Enter a valid Name's City!")
+        alert("Enter a valid city name!")
       }else{
 
         this.setState({
@@ -45,7 +45,7 @@ class App extends React.Component{
       }
       
     }else{
-      alert("Enter a City!")
+      alert("Enter a city name!")
     }
     
 
